@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap");
+body,
+html {
+  height: 100%;
+}
+h2 {
+  font-family: "Ceviche One", cursive;
+  text-align: center;
+  font-size: 100px;
+  margin-top: 0px;
+  margin-bottom: 0em;
+}
+p{
+  font-size: 25px
+}
+.centerblock {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+
+  /* Design properties */
+
+  padding: 5px;
+}
+.text-section {
+  background-color: #FFFFFF;
+  padding: 10px 45px;
+  margin: 35px;
+  text-align: center;
+  border-color: #015ebd;
+  border-style: double;
+}
+.background1,
+.background2,
+.background3 {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #c79836;
+  background-size: cover;
+  min-height: 100%;
+  min-width: 100%;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.background1 {
+  background-image: url("https://cdn.glitch.com/f6e4e4dc-8518-4a0a-992d-8c0e8d67c0da%2Fphoto-1514564079764-600734e1e9b9.jpg?v=1595774458851");
+}
+.background2 {
+  background-image: url("https://cdn.glitch.com/f6e4e4dc-8518-4a0a-992d-8c0e8d67c0da%2Fmusic2000s.jpg?v=1595729109926");
+}
+.background3 {
+  background-image: url("https://cdn.glitch.com/f6e4e4dc-8518-4a0a-992d-8c0e8d67c0da%2F1404_new_millennium_1200_1024x1024.png?v=1595775097799");
+}
+
+nav {
+  margin-top: 0px;
+  padding-top: 0px;
+  float: right;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  list-style-type: none;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}

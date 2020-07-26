@@ -1,0 +1,76 @@
+h1 {
+  font-family: "Rowdies", cursive;
+  font-size: 100px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+h2 {
+  font-family: "Rowdies", cursive;
+  text-align: center;
+  font-size: 64px;
+  margin-top: 0px;
+  margin-bottom: 0em;
+}
+body, 
+html {
+  height: 100%;
+}
+p {
+  font-size: 32px;
+  text-align: center;
+  font-family: "Rowdies", cursive;
+}
+
+.text-section {
+  background-color: #FBE9E7;
+  padding: 10px 35px;
+  margin: 35px;
+  text-align: center;
+}
+.button2 {
+  background-color: #660066;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-style: solid;
+  border-color: white;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  margin: 20px 50px;
+  border-radius: 32px;
+}
+.button2:hover {
+  background-color: #990099;
+  color: white;
+}
+iframe {
+  box-shadow: 10px 10px 10px #888888;
+  margin-bottom: 40px;
+}
+
+.background1,
+.background2,
+.background3 {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #c79836;
+  background-size: cover;
+  min-height: 100%;
+  min-width: 100%;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.background1 {
+  background-image: url("https://i.ibb.co/g9yJ5bs/51838939-823715597967339-8466439623516618752-n-720x430.png");
+}
+.background2 {
+  background-image: url("https://i.ibb.co/ChZT6GR/farm-aid-1985-crowdshot-by-paul-natkin.jpg");
+}
+.background3 {
+  background-image: url("https://i.ibb.co/gVZR2F5/features-90s-tv.jpg");
+}
