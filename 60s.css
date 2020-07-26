@@ -11,6 +11,9 @@ h1 {
   -webkit-background-clip: text;
   margin: 0px;
 }
+h2 {
+  font-size: 48px;
+}
 .background1, .background2, .background3{
   position: relative;
   background-position: center;
@@ -41,6 +44,9 @@ h1 {
   /* Design properties */
 
   padding: 5px;
+}
+p{
+  font-size:24px;
 }
 .text-section {
   background-color: #FFFFFF;
