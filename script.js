@@ -33,5 +33,5 @@ audio[1] = new Audio("https://cdn.glitch.com/f6e4e4dc-8518-4a0a-992d-8c0e8d67c0d
 audio[2] = new Audio("https://cdn.glitch.com/f6e4e4dc-8518-4a0a-992d-8c0e8d67c0da%2Feverylittlething.mp3?v=1595783286423");
 var i;
 for(i=0; i<audio.length; i++){
-  audio[i].play;
+  audio[i].play(
 }
