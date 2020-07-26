@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+body,
+html {
+  height: 100%;
+}
+h1 {
+  font-size: 40px;
+  font-family: Verdana;
+  background: linear-gradient(to right, #00FF00, #FF4500, #9400D3, #FF00FF);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  margin: 0px;
+}
+.background1, .background2, .background3{
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #c79836;
+  background-size: cover;
+  min-height: 100%;
+  min-width: 100%;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.background1 { 
+  background-image: url(https://i.pinimg.com/originals/9f/d0/2c/9fd02cf79c0fd142bb6641a5a85edaa0.jpg) ; 
+}
+.background2 { 
+  background-image: url("https://cdn.glitch.com/f6e4e4dc-8518-4a0a-992d-8c0e8d67c0da%2F9fb844ad03fdde1530eaf7dba5bba5f7.png?v=1595783207733") ; 
+}
+.background3 { 
+  background-image: url("https://cdn.glitch.com/f6e4e4dc-8518-4a0a-992d-8c0e8d67c0da%2F58178422-hippie-vintage-car-a-mini-van-ornamental-background-love-and-music-with-hand-written-fonts-hand-draw.jpg?v=1595784448627") ; 
+}
+.centerblock {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+
+  /* Design properties */
+
+  padding: 5px;
+}
+.text-section {
+  background-color: #FFFFFF;
+  padding: 10px 45px;
+  margin: 35px;
+  text-align: center;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.button {
+   background: linear-gradient(to bottom, #66ff99 0%, #ffff66 100%);
+  border: none;
+  border-radius:8px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  font-family: Verdana;
+  margin: 4px 2px;
+  cursor: cell;
+  position: relative;
+  bottom: -5px;
+  right:-1000px;
+}

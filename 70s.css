@@ -1,0 +1,75 @@
+body,
+html {
+  height: 100%;
+  margin-top:0px;
+  padding-top:0px;
+}
+h1 {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6,
+    0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6,
+      0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+  }
+  to {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0073e6,
+      0 0 40px #0073e6, 0 0 50px #0073e6, 0 0 60px #0073e6, 0 0 70px #0073e6;
+  }
+}
+.background1, .background2, .background3{
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #c79836;
+  background-size: cover;
+  min-height: 100%;
+  min-width: 100%;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.background1 {
+   background-image: url(https://images-na.ssl-images-amazon.com/images/I/715TDjju5cL._AC_SL1500_.jpg); 
+}
+.background2 { 
+  background-image: url("https://cdn.glitch.com/f6e4e4dc-8518-4a0a-992d-8c0e8d67c0da%2Fphoto-1535746411167-1b951ce61a5b.jpg?v=1595784805688") ; 
+}
+.background3 { 
+  background-image: url("https://cdn.glitch.com/f6e4e4dc-8518-4a0a-992d-8c0e8d67c0da%2Fphoto-1564833840938-2f5041df082d.jpg?v=1595784817980") ; 
+}
+.centerblock {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+
+  /* Design properties */
+
+  padding: 5px;
+}
+.text-section {
+  background-color: #FFFFFF;
+  padding: 10px 45px;
+  margin: 35px;
+  text-align: center;
+}
+.button {
+  color: white;
+  border: none;
+  border-radius: 24px;
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6,
+    0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+  cursor: pointer;
+  position: relative;
+  bottom: -20px;
+  right: -1000px;
+}

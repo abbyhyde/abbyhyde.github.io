@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:wght@500&display=swap");
+body,
+html {
+  height: 100%;
+}
+p{
+  font-size: 25px;
+  color: black;
+}
+h3 {
+  font-family: "Advent Pro", sans-serif;
+  text-align: center;
+  font-size: 100px;
+  margin-top: 0px;
+  margin-bottom: 0em;
+  background-color:white;
+}
+.centerblock {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+
+  /* Design properties */
+
+  padding: 5px;
+}
+.text-section {
+  background-color: #FFFFFF;
+  padding: 10px 45px;
+  margin: 35px;
+  text-align: center;
+}
+.background1,
+.background2,
+.background3 {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #c79836;
+  background-size: cover;
+  min-height: 100%;
+  min-width: 100%;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.background1{
+  background-image: url("https://cdn.glitch.com/f6e4e4dc-8518-4a0a-992d-8c0e8d67c0da%2Fphoto-1567942712661-82b9b407abbf.jpg?v=1595776361026");
+}
+.background2{
+  background-image: url("https://cdn.glitch.com/f6e4e4dc-8518-4a0a-992d-8c0e8d67c0da%2Fphoto-1543788303-c15e49305bc6.jpg?v=1595776508189");
+}
+.background3{
+  background-image: url("https://cdn.glitch.com/f6e4e4dc-8518-4a0a-992d-8c0e8d67c0da%2Fmaxresdefault.jpg?v=1595776894692");
+}
+
+.position2{
+  position: absolute;
+  top:250px;
+  left: 40%;
+  right:50%;
+}
+nav {
+  margin-top: 0px;
+  padding-top: 0px;
+  float: right;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  list-style-type: none;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
