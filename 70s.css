@@ -67,6 +67,8 @@ p{
   margin: 35px;
   text-align: center;
   font-family: 'Righteous', cursive;
+  border-color: #b88cd1;
+  border-style: double;
 }
 .button {
   color: white;
@@ -79,6 +81,6 @@ p{
     0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
   cursor: pointer;
   position: relative;
-  bottom: -20px;
-  right: -1000px;
+  top: 30px;
+  right: -1250px;
 }

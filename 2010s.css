@@ -17,6 +17,12 @@ h3 {
   margin-bottom: 0em;
   background-color:white;
 }
+a{
+  font-size: 25px;
+  color: white;
+  font-family: 'Maiden Orange', cursive;
+}
+
 .centerblock {
   display: flex;
   flex-direction: row;
@@ -33,8 +39,8 @@ h3 {
   padding: 10px 45px;
   margin: 35px;
   text-align: center;
-  border-style: ridge;
-  border-color: 
+  border-style: dotted;
+  border-color: #222840;
 }
 .background1,
 .background2,
