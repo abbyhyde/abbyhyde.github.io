@@ -54,7 +54,8 @@ p{
   margin: 35px;
   text-align: center;
   font-family: 'Abril Fatface', cursive;
-  border-color:
+  border-color: #8ad19d;
+  border-style: double;
 }
 
 .button {
@@ -70,6 +71,6 @@ p{
   margin: 4px 2px;
   cursor: cell;
   position: relative;
-  bottom: -5px;
-  right:-1000px;
+  bottom: -1px;
+  right:-1250px;
 }

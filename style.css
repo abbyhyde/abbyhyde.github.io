@@ -114,3 +114,32 @@ li a {
 li a:hover {
   background-color: #111;
 }
+
+.play{
+  background-color: #f3b810;
+  border-radius: 10px;
+  border: none;
+  size:100px;
+  padding: 5px 5px;
+  color: white;
+  box-shadow: 2px 2px 2px black;
+  transition: transform .2s;
+}
+.play:hover{
+  box-shadow: 2px 2px 2px black;
+  transform: scale(1.1);
+}
+.pause{
+  background-color: #f3b810;
+  border-radius: 10px;
+  border: none;
+  size:100px;
+  padding: 5px 5px;
+  color: white;
+  box-shadow: 2px 2px 2px black;
+  transition: transform .2s;
+}
+.pause:hover{
+  box-shadow: 2px 2px 2px black;
+  transform: scale(1.1);
+}

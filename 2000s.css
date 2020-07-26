@@ -19,6 +19,7 @@ a{
   font-family: 'Shadows Into Light', cursive;
 }
 .centerblock {
+  text-align: center;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
