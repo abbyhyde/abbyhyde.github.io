@@ -1,6 +1,6 @@
 Dancing to the Decades
 =================
-A website created for the HobbyHacks hackathon hosted by TechTogether that has music from all decades from the 1960s through the 2010s. 
+A music gallery website ranging from the 1960s to the 2010s. Created for the HobbyHacks hackathon hosted by TechTogether.
 
 Made by [Glitch](https://glitch.com/)
 -------------------
